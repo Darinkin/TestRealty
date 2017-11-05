@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/edit_item"
+        android:title="Изменить"
+        app:showAsAction="always"
+        android:visible="false"
+        android:icon="@android:drawable/ic_menu_edit" />
+    <item
+        android:id="@+id/delete_item"
+        android:title="Удаление"
+        android:visible="false"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_delete" />
+    <item
+        android:id="@+id/add_item"
+        android:title="Добавить"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_input_add" />
+    <item
+        android:id="@+id/logout_item"
+        android:title="Выйти"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_revert"/>
+</menu>
